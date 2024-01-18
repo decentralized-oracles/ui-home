@@ -8,6 +8,11 @@ import fs from 'fs/promises';
 });*/
 
 export default defineConfig(() => ({
+  root: '.',
+  build: {
+    emptyOutDir: false,
+    outDir: '../dist/'
+  },
   plugins: [react()],
   esbuild: {
     //loader: "jsx",
