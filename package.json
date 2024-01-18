@@ -1,0 +1,25 @@
+{
+  "name": "astar-decentralized-oracle",
+  "version": "1.0.0",
+  "description": "astar decentralized oracle",
+  "main": "index.js",
+  "author": "Arno",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "^5.0.11"
+  }
+}
